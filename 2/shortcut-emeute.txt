@@ -1,0 +1,2 @@
+Raccourci
+nav>ul>li || nav*4 || div{contenu} || ul>li{contenu}*5 || div.perso div#perso

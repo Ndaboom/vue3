@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier projet</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="app">
+        <h3>{{ titre }}</h3>
+        <h4>{{ sous_titre }}</h4>
+        <p>Nous sommes le : {{ current_date }} heure : {{ current_time }}</p>
+    </div>
+    <script>
+        app = Vue.createApp({
+            data(){
+                var today = new Date();
+                let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+              
+                return {
+                    titre: "Ma premiere application vue3",
+                    sous_titre: "Mon sous titre",
+                    current_date: date,
+                    current_time: new Date().toLocaleTimeString()
+                }
+            }
+        });
+        app.mount('#app');
+    </script>
+</body>
+</html>
