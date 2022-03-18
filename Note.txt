@@ -21,3 +21,18 @@ Quelques plugins :
 composants de l'application
 - vue-ressource pour realiser des requetes Ajax sur une api
 - vue-validator  pour valider les formulaires
+
+Le composant teleport :  Nous permet a teleporter un contenua une balise
+quelconque a l'exterieur de l'element prise en charge par vuejs.
+
+La composition Api : 
+Dans une application vue basee sur Options API, vous pouvez
+utiliser ces sections dans le modele : data, methods, computed, props, les 
+fonctions liees au cycle de vie l'application ou de ses composants.
+
+Les limites de l'approche :
+-Support limite du langage Typescrit
+-Code difficile a maintenir dans les grosses applications
+-Difficulte relative de reutilisation du code dans les composants.
+
+
