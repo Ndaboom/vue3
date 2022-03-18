@@ -1,0 +1,4 @@
+Pour installer @vue/cli sur le pc, executes la commande :
+- npm install -g @vue/cli
+Pour le mettre a jour on execute la commande :
+- npm update -g @vue/cli
