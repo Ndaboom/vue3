@@ -2,3 +2,14 @@ Pour installer @vue/cli sur le pc, executes la commande :
 - npm install -g @vue/cli
 Pour le mettre a jour on execute la commande :
 - npm update -g @vue/cli
+Pour creer un projet on execute la commande :
+- vue create project_name
+
+Architecture d'un projet vue :
+le fichier main.js : sert du point d'entré de l'app
+index.html : Pour afficher l'applications
+App.vue : Root component
+
+Mixins : permettent de creer des fonctionnalites reutilisables dans une ou plusieurs
+application vue.
+Types : Mixins locaux, Mixins globaux
