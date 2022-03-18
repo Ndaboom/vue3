@@ -13,3 +13,11 @@ App.vue : Root component
 Mixins : permettent de creer des fonctionnalites reutilisables dans une ou plusieurs
 application vue.
 Types : Mixins locaux, Mixins globaux
+
+Plugins : Sont utilises pour etendre les possibilites des vue :
+Quelques plugins :
+- vue-router : pour gerer le routage de l'application
+- vuex : Pour definir une zone de stockage de donnees centralisé pour tous les 
+composants de l'application
+- vue-ressource pour realiser des requetes Ajax sur une api
+- vue-validator  pour valider les formulaires
